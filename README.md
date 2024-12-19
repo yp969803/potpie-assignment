@@ -12,6 +12,9 @@ GITHUB_TOKEN =
 ```
 
 ```
+python3 -m venv my_env
+source my_env/bin/activate
+docker run --name redis-container -d -p 6379:6379 redis
 pip install -r requirements.txt
 fastapi dev main.py
 ```
