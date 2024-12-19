@@ -1,0 +1,17 @@
+fastapi[standard]
+uvicorn
+celery
+redis
+langchain
+pytest
+requests
+pydantic
+python-dotenv
+aiohttp
+pylint
+flake8
+loguru
+pygithub
+transformers
+torch
+langchain_community
